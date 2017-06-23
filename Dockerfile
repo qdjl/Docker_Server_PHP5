@@ -19,6 +19,7 @@ RUN apt-get update -y \
     php5-odbc \
     php5-sqlite \
     php5-xmlrpc \
+    php5-sybase \
   && apt-get autoclean \
   && apt-get autoremove \
   && rm -rf /var/lib/apt/lists/*
